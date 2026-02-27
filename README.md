@@ -70,11 +70,10 @@ Sleep-Quality-Analysis/
 ├── data/
 │ └── sleep_dataset.csv
 │
-├── notebooks/
-│ └── sleep_analysis.ipynb
+├── sleep_analysis.ipynb
 │
-├── dashboard/
-│ └── sleep_dashboard.pbix
+├── images/
+│ └── dashboard.png
 │
 └── README.md
 ```

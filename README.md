@@ -9,7 +9,7 @@ The objective is to identify key factors affecting sleep performance and present
 
 ## 📊 Dashboard Preview
 
-![Sleep Quality Dashboard](assets/dashboard.png)
+![Sleep Quality Dashboard](images/dashboard.png)
 
 ---
 

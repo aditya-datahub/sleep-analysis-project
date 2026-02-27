@@ -64,7 +64,7 @@ Identify lifestyle factors influencing sleep quality and analyze their impact us
 ---
 
 ## 📂 Repository Structure
-'''
+```
 Sleep-Quality-Analysis/
 │
 ├── data/
@@ -77,8 +77,7 @@ Sleep-Quality-Analysis/
 │ └── sleep_dashboard.pbix
 │
 └── README.md
-'''
-
+```
 ---
 
 ## 🚀 Conclusion

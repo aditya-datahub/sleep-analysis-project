@@ -3,7 +3,15 @@
 ## 📌 Project Overview
 This project analyzes how lifestyle factors influence sleep quality using Exploratory Data Analysis (EDA) and an interactive Power BI dashboard.
 
-The goal is to identify key factors affecting sleep performance and present actionable insights through data visualization.
+The objective is to identify key factors affecting sleep performance and present insights in a clear and business-friendly format.
+
+---
+
+## 📊 Dashboard Preview
+
+<p align="center">
+  <img src="assets/dashboard.png" width="900">
+</p>
 
 ---
 
@@ -12,11 +20,28 @@ Identify lifestyle factors influencing sleep quality and analyze their impact us
 
 ---
 
+## 📂 Dataset Information
+
+This project uses two datasets:
+
+1. **Health_Sleep_Statistics.csv**  
+   - Original raw dataset  
+   - Contains sleep duration, quality score, physical activity, stress level, and other lifestyle factors  
+
+2. **health_cleaned.csv**  
+   - Cleaned and processed dataset  
+   - Missing values handled  
+   - Data types corrected  
+   - Ready for analysis and dashboard creation  
+
+---
+
 ## 🛠 Tools & Technologies
 - Python (Pandas, Matplotlib, Seaborn)
 - Jupyter Notebook
 - Power BI
-- Data Cleaning & EDA
+- Data Cleaning
+- Exploratory Data Analysis (EDA)
 - Correlation Analysis
 - Dashboard Design
 
@@ -24,24 +49,25 @@ Identify lifestyle factors influencing sleep quality and analyze their impact us
 
 ## 🔎 Project Workflow
 
-1. Data Cleaning
-   - Handled missing values
-   - Checked data types
-   - Verified dataset consistency
+### 1️⃣ Data Cleaning
+- Loaded raw dataset (Health_Sleep_Statistics.csv)
+- Handled missing values
+- Standardized column names
+- Exported cleaned dataset (health_cleaned.csv)
 
-2. Exploratory Data Analysis (EDA)
-   - Distribution analysis
-   - Relationship analysis
-   - Lifestyle factor comparisons
+### 2️⃣ Exploratory Data Analysis
+- Distribution analysis
+- Relationship analysis
+- Lifestyle factor comparisons
 
-3. Correlation Analysis
-   - Generated correlation matrix
-   - Identified strong positive and negative relationships
+### 3️⃣ Correlation Analysis
+- Generated correlation heatmap
+- Identified key influencing factors
 
-4. Dashboard Development
-   - Built interactive Power BI dashboard
-   - Highlighted KPIs and key trends
-   - Designed clean and professional layout
+### 4️⃣ Dashboard Development
+- Built interactive Power BI dashboard
+- Designed KPI cards and visual insights
+- Structured clean and professional layout
 
 ---
 
@@ -54,26 +80,19 @@ Identify lifestyle factors influencing sleep quality and analyze their impact us
 
 ---
 
-## 📈 Dashboard Features
-
-- KPI Cards (Average Sleep Duration, Sleep Quality Score, Physical Activity Level)
-- Correlation insights
-- Lifestyle comparison visuals
-- Clean and user-friendly layout
-
----
-
-## 📂 Repository Structure
+## 📁 Repository Structure
 ```
 Sleep-Quality-Analysis/
 │
+├── assets/
+│   └── dashboard.png
+│
 ├── data/
-│ └── sleep_dataset.csv
+│   ├── Health_Sleep_Statistics.csv
+│   └── health_cleaned.csv
 │
-├── sleep_analysis.ipynb
-│
-├── images/
-│ └── dashboard.png
+├── notebooks/
+│   └── sleep_analysis.ipynb
 │
 └── README.md
 ```
@@ -82,10 +101,12 @@ Sleep-Quality-Analysis/
 ## 🚀 Conclusion
 
 This project demonstrates:
-
 - Strong understanding of Exploratory Data Analysis
-- Ability to extract meaningful insights
-- Dashboard storytelling skills
+- Data cleaning and preprocessing skills
+- Insight extraction and storytelling
 - End-to-end data analyst workflow
 
 ---
+
+## 🔗 Connect With Me
+Open to feedback and opportunities in Data Analytics.

@@ -9,9 +9,7 @@ The objective is to identify key factors affecting sleep performance and present
 
 ## 📊 Dashboard Preview
 
-<p align="center">
-  <img src="assets/dashboard.png" width="900">
-</p>
+![Sleep Quality Dashboard](assets/dashboard.png)
 
 ---
 
@@ -84,15 +82,14 @@ This project uses two datasets:
 ```
 Sleep-Quality-Analysis/
 │
-├── assets/
+├── images/
 │   └── dashboard.png
 │
 ├── data/
 │   ├── Health_Sleep_Statistics.csv
 │   └── health_cleaned.csv
 │
-├── notebooks/
-│   └── sleep_analysis.ipynb
+├── sleep_analysis.ipynb
 │
 └── README.md
 ```
@@ -107,6 +104,3 @@ This project demonstrates:
 - End-to-end data analyst workflow
 
 ---
-
-## 🔗 Connect With Me
-Open to feedback and opportunities in Data Analytics.
